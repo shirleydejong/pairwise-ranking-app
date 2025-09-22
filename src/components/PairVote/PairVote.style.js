@@ -17,6 +17,7 @@ export const BallotBox = styled.div`
   justify-content: space-between;
 
   margin-top: 2rem;
+  width: 100%;
 
   > * {
     max-width: 45%;

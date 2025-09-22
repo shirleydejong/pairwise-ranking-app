@@ -19,7 +19,7 @@ const BallotCard = styled(Card)`
   min-height: ${minHeight}px;
   width: ${maxWidth}px;
   border-radius: .5rem;
-  background: transparent;
+  background: #3d3d3d !important;
 
   h2 {
     padding: 0 1rem;
@@ -35,7 +35,7 @@ const BallotCard = styled(Card)`
 `;
 
 const BallotCardMedia = styled(CardMedia)`
-  object-fit: scale-down;
+  object-fit: scale-down !important;
   max-height: 75vh;
 `;
 
