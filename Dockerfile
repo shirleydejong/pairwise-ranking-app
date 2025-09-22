@@ -15,10 +15,3 @@ RUN yarn install
 
 # Bouw het project
 RUN yarn build
-
-# Stage 2: De serve-fase
-FROM nginx:alpine
-
-COPY --from=builder /app/build /usr/share/nginx/html
-
-CMD ["nginx", "-g", "daemon off;"]
