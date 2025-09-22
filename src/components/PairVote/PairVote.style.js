@@ -8,6 +8,7 @@ export const PairContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 1rem 0;
+  width: 100%;
 `;
 
 export const BallotBox = styled.div`

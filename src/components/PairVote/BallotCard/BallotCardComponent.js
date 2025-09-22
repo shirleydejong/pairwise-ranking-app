@@ -19,10 +19,12 @@ const BallotCard = styled(Card)`
   min-height: ${minHeight}px;
   width: ${maxWidth}px;
   border-radius: .5rem;
+  background: transparent;
 
   h2 {
     padding: 0 1rem;
     overflow: ellipsis;
+    color: white;
   }
 
   ${breakPoint.mediumAndSmaller} {
@@ -34,11 +36,7 @@ const BallotCard = styled(Card)`
 
 const BallotCardMedia = styled(CardMedia)`
   object-fit: scale-down;
-  max-height: ${imgHeight}px;
-
-  ${breakPoint.mediumAndSmaller} {
-    height: ${imgHeightMobile}px;
-  }
+  max-height: 75vh;
 `;
 
 /**
